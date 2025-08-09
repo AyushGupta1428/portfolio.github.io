@@ -1,1 +1,1 @@
-https://portfolio-github-io-nu-nine.vercel.app
+https://portfolio-github-io-git-master-ayushgupta1428s-projects.vercel.app
