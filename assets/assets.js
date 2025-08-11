@@ -6,6 +6,10 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import Sql from './sql.svg';
+import excel from './excel.png';
+import powerBI from './powerBI.png';
+import tableau_software from './tableau-software.png'
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -46,6 +50,10 @@ export const assets = {
     edu_icon_dark,
     project_icon,
     project_icon_dark,
+    Sql,
+    excel,
+    powerBI,
+    tableau_software,
     vscode,
     firebase,
     figma,
@@ -117,5 +125,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.Sql, assets.excel, assets.powerBI, assets.tableau_software, assets.git
 ];
