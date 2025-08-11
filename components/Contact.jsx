@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useState } from 'react'
 import { motion } from "motion/react"
+import Swal from 'sweetalert2'
 
 const Contact = () => {
 
@@ -12,8 +13,8 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    // Enter your web3 froms access key below
-    formData.append("access_key", "------Enter Access Key Here-------");
+    
+    formData.append("access_key", "874f4b24-cc3e-4e33-b296-64eeed7f6553");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -23,7 +24,12 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
+      setResult("");
+      Swal.fire({
+        title: "Success!",
+        text: "Message sent successfully",
+        icon: "success"
+    });
       event.target.reset();
     } else {
       console.log("Error", data);
