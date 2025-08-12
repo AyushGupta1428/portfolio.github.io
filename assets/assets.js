@@ -93,21 +93,25 @@ export const workData = [
         title: 'SQL Project-1',
         description: 'Data Cleaning and Handling using Dataset of World Layoffs ',
         bgImage: '/work-1.png',
+        link: 'https://github.com/AyushGupta1428/SQL_Analytics',
     },
     {
         title: 'SQL Project-2',
         description: 'Data Exploration using Dataset of Covid-19',
         bgImage: '/work-2.png',
+        link: 'https://github.com/AyushGupta1428/SQL_Analytics',
     },
     {
         title: 'Dashboard for Listings and Booking Analysis using Tableau',
         description: 'Researched a dataset of Airbnb and analyzed booking of various zipcodes of year 2016 ',
         bgImage: '/work-3.png',
+        link: 'https://github.com/AyushGupta1428/Data_Visualisation_Dashboard',
     },
     {
         title: 'Dashboard for Bike Sales using Excel',
         description: '',
         bgImage: '/work-4.png',
+        link: 'https://github.com/AyushGupta1428/Data_Visualisation_Dashboard',
     },
 ]
 
