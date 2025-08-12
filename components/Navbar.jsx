@@ -38,8 +38,8 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"} `}>
             <li><a className='font-Ovo' href="#top">Home</a></li>
             <li><a className='font-Ovo' href="#about">About me</a></li>
-            <li><a className='font-Ovo' href="#services">Education</a></li>
-            <li><a className='font-Ovo' href="#work">My Projects</a></li>
+            <li><a className='font-Ovo' href="#educations">Education</a></li>
+            <li><a className='font-Ovo' href="#projects">My Projects</a></li>
             <li><a className='font-Ovo' href="#contact">Contact me</a></li>
         </ul>
 
@@ -67,8 +67,8 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
             <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#about">About me</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#services">Education</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="#work">My Projects</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#educations">Education</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="#projects">My Projects</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="#contact">Contact me</a></li>
         </ul>
 
