@@ -109,7 +109,7 @@ export const workData = [
     },
     {
         title: 'Dashboard for Bike Sales using Excel',
-        description: '',
+        description: 'Built an Excel dashboard with Pivot Tables to visualize and analyze bike sales performance.',
         bgImage: '/work-4.png',
         link: 'https://github.com/AyushGupta1428/Data_Visualisation_Dashboard',
     },

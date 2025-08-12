@@ -30,7 +30,7 @@ const Educations = () => {
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-       Final-year engineering student with a strong interest in business analysis and data interpretation. Gained practical exposure to reporting and process analysis during field internships. Currently learning Excel, SQL, and Power BI to support data-driven business decisions.</motion.p>
+       </motion.p>
 
         <motion.div
         initial={{ opacity: 0 }}

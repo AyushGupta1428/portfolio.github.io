@@ -24,6 +24,14 @@ const About = ({isDarkMode}) => {
       className='text-center text-5xl font-Ovo'>
         About me</motion.h2>
 
+        <motion.p 
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.7, duration: 0.5 }}
+              className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+              Detail-oriented and analytical fresher with strong skills in data analysis, visualization, and problem-solving. Proficient in Excel, SQL, and BI tools to derive actionable insights. Adept at translating business requirements into data-driven solutions to support strategic decision-making.  
+        </motion.p>
+
         <motion.div 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}

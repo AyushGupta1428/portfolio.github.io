@@ -31,7 +31,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        
+        Final-year engineering student with a strong interest in business analysis and data interpretation. Gained practical exposure to reporting and process analysis during field internships. Currently learning Excel, SQL, and Power BI to support data-driven business decisions.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
